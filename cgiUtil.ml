@@ -40,6 +40,6 @@ let get_param pname : string =
 
       
 let print_header () =
-  print_endline "Content-Type: text/plain;charset=utf-8";
+  print_endline "Content-Type: text/html;charset=utf-8";
   print_newline ();
 
